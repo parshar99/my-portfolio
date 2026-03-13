@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div id="info">
+            <h2>Meet Parashar</h2>
+            <p>email@example.com</p>
+            <p> +91 78975870981</p>
+        </div>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendation">Recommendation</a>
+        </nav>
+    </header>
+
+    <section id="about" class=" about">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="profile">
+        <div>
+            <h1>hi, I am Meet! 😎</h1>
+            <p>
+                I am a web developer with knowledge of HTML, CSS and JavaScript.
+        I enjoy building responsive websites and learning new technologies
+            </p>
+        </div>
+
+    </section>
+
+    <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-container">
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+            <h3>HTML</h3>
+            <p>2 years experience</p>
+        </div>
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+            <h3>JavaScript</h3>
+            <p>1 years experience</p>
+        </div>
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
+            <h3>Java</h3>
+            <p>1 years experience</p>
+        </div>
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png">
+            <h3>React</h3>
+            <p>1 years experience</p>
+        </div>
+    </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>Weather app using javascript API</p>
+        </div>
+        <div class="project">
+            <h3>Protfolio website</h3>
+            <p>Protfolio website using HTML CSS</p>
+        </div>
+        <div class="project">
+            <h3>ToDo App</h3>
+            <p>ToDo app using java</p>
+        </div>
+    </section>
+    
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div id="rec-list">
+            <div class="rec">"Meet is a quick learner and great developer."</div>
+            <div class="rec">"He writes clean code and works well in teams."</div>
+            <div class="rec">"Very hardworking and dedicated."</div>
+        </div>
+
+        <h3>Leave a Recommendations</h3>
+
+        <input type="text" id="name" placeholder="Name (Optional)">
+        <textarea id="message" placeholder="Message"> </textarea>
+        <button onclick="addRecommendation()">submit</button>
+    </section>
+
+    <button id="home" onclick="scrollTopPage()">home</button>
+</body>
+
+</html>
